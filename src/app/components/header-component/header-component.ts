@@ -5,6 +5,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { Router, RouterLink } from "@angular/router";
+import { MatIconButton } from '@angular/material/button';
 
 @Component({
   selector: 'app-header',
@@ -14,7 +15,8 @@ import { Router, RouterLink } from "@angular/router";
     RouterLink, 
     MatFormFieldModule,
     FormsModule,
-    MatInputModule
+    MatInputModule,
+    MatIconButton
   ],
   templateUrl: './header-component.html',
   styleUrl: './header-component.scss',

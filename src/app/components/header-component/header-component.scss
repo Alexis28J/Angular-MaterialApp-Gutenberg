@@ -10,13 +10,23 @@
   //Utilizzando questa variabile, il colore della toolbar si adatterà automaticamente al tema scelto dall'utente, garantendo coerenza visiva in tutta l'applicazione.
   color: aliceblue;
   //Questo rende bianco tutto il testo e le icone dentro la toolbar, mantenendo il colore di sfondo Material.
+
+  display: flex;
+  align-items: center;
 }
 
 
 //Copilot header-component: https://copilot.microsoft.com/shares/bWyvzDULgftEfPwVqJFuH
 
 .search-field { 
-  width: 250px; 
+  max-width: 200px; 
+  width: 100%;
+  height: 75px;
   margin-right: 20px; 
+  padding-top: 20px;
+}
+
+mat-icon {
+  color: aliceblue;
 }
 
