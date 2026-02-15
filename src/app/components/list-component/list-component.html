@@ -3,7 +3,7 @@
     <!-- gutenbergServ.books() ritorna un array di oggetti Book -->
     <mat-card class="example-card" appearance="outlined">
         <mat-card-header>
-            <mat-card-title>{{book.title}}</mat-card-title>
+            <mat-card-title class="book-title">{{book.title}}</mat-card-title>
             <mat-card-subtitle>{{book.authors[0]?.name}}</mat-card-subtitle>
             <!-- authors[0]? indica che se authors è un array, prende il primo elemento (index 0), altrimenti restituisce undefined -->
         </mat-card-header>

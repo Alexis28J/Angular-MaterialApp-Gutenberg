@@ -1,5 +1,8 @@
+//Copilot list-component: https://copilot.microsoft.com/shares/bt5pGgzkRHJiW5429gqRC
+
 .example-card{
-    max-width: 400px;
+    width: 300px;
+    max-width: 300px;
 }
 
 .container{
@@ -9,3 +12,62 @@
     gap: 16px;
     padding: 16px;
 }
+
+//https://copilot.microsoft.com/shares/q13kzqcMTuf46swAK9TsH
+.example-card img {
+  height: 300px;      /* riduce l’altezza */
+  object-fit: cover;  /* mantiene proporzioni e taglia l’eccesso */
+  object-position: top; /* mantiene visibile la parte superiore */
+  //object-fit: contain; /* non taglia nulla, ma può lasciare bordi */
+  //background: #f5f5f5; /* opzionale, per riempire lo sfondo */
+  
+}
+
+//https://copilot.microsoft.com/shares/E8g4i9DLXT5Kdvpq74Fcm
+//https://copilot.microsoft.com/shares/e2bjxtjoxZWc5761MZvoT
+// .example-card p {
+//   height: 60px;          /* altezza fissa per tutte le descrizioni */
+//   overflow: hidden;      /* nasconde il testo in eccesso */
+//   text-overflow: ellipsis;
+//   display: -webkit-box;
+//   -webkit-line-clamp: 3; /* numero di righe visibili */
+//   -webkit-box-orient: vertical;
+// }
+
+// .example-card p {
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   display: -webkit-box;
+//   -webkit-line-clamp: 3; /* mostra 3 righe */
+//   -webkit-box-orient: vertical;
+// }
+
+// .example-card p {
+//   display: -webkit-box;
+//   -webkit-line-clamp: 3;     /* numero di righe visibili */
+//   -webkit-box-orient: vertical;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+
+//   word-break: normal;        /* evita di spezzare parole */
+//   overflow-wrap: break-word; /* va a capo solo tra parole */
+// }
+
+.example-card p {
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+.book-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+
+
+

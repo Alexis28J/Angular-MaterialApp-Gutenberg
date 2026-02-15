@@ -8,4 +8,15 @@
   background-color: var(--mat-sys-primary);
   //var(--mat-sys-primary) è una variabile CSS che rappresenta il colore primario del tema Material Design. 
   //Utilizzando questa variabile, il colore della toolbar si adatterà automaticamente al tema scelto dall'utente, garantendo coerenza visiva in tutta l'applicazione.
+  color: aliceblue;
+  //Questo rende bianco tutto il testo e le icone dentro la toolbar, mantenendo il colore di sfondo Material.
 }
+
+
+//Copilot header-component: https://copilot.microsoft.com/shares/bWyvzDULgftEfPwVqJFuH
+
+.search-field { 
+  width: 250px; 
+  margin-right: 20px; 
+}
+
